@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  post_build:
+    commands:
+      - echo ${ACCOUNT_ID}
+      - echo ${ACCOUNT_ID}
+      - echo ${ACCOUNT_ID}
+      - echo ${ACCOUNT_ID}
+      - echo ${ACCOUNT_ID}
+      
+artifacts:
+  files:
+    - '**/*'
